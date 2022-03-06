@@ -16,8 +16,8 @@ JavaScript mini Project :
 * Can ADD to cart which shows Total -> quantity , item , price with DETAILS.
 
 # Store Management System - Feature 
- There are list of various products - 
-- Three Links for - 
+- There are list of various products and Links - 
+ Three Links for - 
 1. Responsible for Show All Products. 
 2. Responsible for choose Product and GET customer details like - number , address ,shipping slot.
 3. Responsible for Show All Orders. 

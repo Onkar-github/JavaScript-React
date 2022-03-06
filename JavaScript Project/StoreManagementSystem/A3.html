@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Section B</title>
+<style type="text/css">
+	.table1{
+	/*border: 2px solid white ;		*/
+	border-collapse: collapse;
+	margin-bottom: 20px ;
+	}
+	.td1{
+	font-size: 19px ;
+	background-color: lightgreen ;
+    font-weight:bold;
+	text-align: center;
+	padding: 0 ;
+	margin: 0 ;
+	/*border:5px solid white;*/
+	}
+	.td2{
+	font-size: 19px ;
+    background-color:rgb(252, 214, 164);
+    font-weight:bold;
+	text-align: center;
+	padding: 0 ;
+	margin: 0 ;
+	/*border:5px solid white;*/
+	}
+	.th1{
+	font-size: 19px ;
+	background-color:rgba(171, 106, 231,0.897);
+	color: white ;
+	width: 100px;
+	/*border: 5px solid white ;*/
+	padding: 3px 15px ;
+	}		
+	.mainBtn{
+	background-color: black;
+	color:white;
+	margin: 3px ;
+	padding: 5px 10px;
+	}
+	.mainBtn:hover{
+		background-color: red ;
+	}
+	.p1{
+		margin-top: 5px ;
+		margin-bottom: 0 ; 
+		font-size: 20px ;
+		font-weight: bold;
+		width:250px ;
+		display: inline-block;
+		text-align : right;
+		padding-right: 5px;
+	}
+	.editBtn{
+	background-color: black;
+	color:white;
+	margin: 3px ;
+	padding: 5px 10px;
+	margin-left: 250px ;
+	}
+	.editBtn:hover{
+		background-color: red ; 
+	}
+	.divBtn{
+		padding-bottom: 20px ;
+	}
+	.removeBtn{
+		background: black ; 
+		color: white ;
+	}
+
+</style>
+</head>
+<body>
+<h1>Store Management System</h1>
+<div class="divBtn">
+<button class="mainBtn" onclick="showProduct(product)">Products</button>
+<button class="mainBtn" onclick="createform()">Enter an order</button>
+<button class="mainBtn" onclick="showOrder()">All order</button>
+</div>
+<div id="table"></div>
+<div id="temp"></div>
+
+
+
+	<script type="text/javascript" src="A3taskB.js"></script>
+</body>
+</html>

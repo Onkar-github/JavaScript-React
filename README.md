@@ -1,7 +1,6 @@
 # JavaScript-React
 
-Contain -
-mini JavaScript Projects & React Projects 
+Contain - JavaScript Projects & React Projects with bootstrap
 
 
 JavaScript mini Project : 
